@@ -5,7 +5,7 @@ import { Building, Phone, MapPin, Globe, Star, MessageSquare, Image as ImageIcon
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 const ClinicProfileView = () => {
   const { id } = useParams();

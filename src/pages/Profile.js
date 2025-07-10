@@ -4,7 +4,7 @@ import axios from 'axios';
 import { User, Phone, MapPin, GraduationCap, Briefcase, Building, Globe, Upload, Trash2, ImageIcon } from 'lucide-react';
 import toast from 'react-hot-toast';
 
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 const Profile = () => {
   const { user } = useAuth();
