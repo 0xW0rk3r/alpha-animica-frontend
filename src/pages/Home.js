@@ -20,7 +20,7 @@ const Home = () => {
               Connect Veterinary Talent
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-100">
-              The premier platform connecting veterinary trainees with clinic opportunities
+              The first platform in Egypt provides training for veterinary students and qualify them for the labor market and provides job opportunities for recent graduates
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               {!user ? (
